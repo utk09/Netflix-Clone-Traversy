@@ -170,8 +170,27 @@ https://www.w3schools.com/css/css3_2dtransforms.asp
   justify-content: center;
 }
 
-
 /**********************Text Styles***********************/
+
+.text-xl {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: snow;
+}
+
+.text-lg {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+  color: snow;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-dark {
+  color: var(--dark-color);
+}
 
 /**********************Container***********************/
 
