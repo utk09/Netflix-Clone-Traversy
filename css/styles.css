@@ -161,6 +161,12 @@ https://www.w3schools.com/css/css3_2dtransforms.asp
   border-bottom: var(--primary-color) 4px solid;
 }
 
+.tab-content {
+  padding: 3rem 0;
+  background: #000;
+  color: snow;
+}
+
 /**********************Tab-1-content***********************/
 #tab-1-content .tab-1-content-inner {
   display: grid;
@@ -175,13 +181,11 @@ https://www.w3schools.com/css/css3_2dtransforms.asp
 .text-xl {
   font-size: 2rem;
   margin-bottom: 1rem;
-  color: snow;
 }
 
 .text-lg {
   font-size: 1.8rem;
   margin-bottom: 1rem;
-  color: snow;
 }
 
 .text-center {
