@@ -137,6 +137,10 @@ https://www.w3schools.com/css/css3_2dtransforms.asp
 .tabs .container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr; /*or repeat(3, 1fr) fr - fraction*/
+  grid-gap: 1rem;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 }
 /**********************Buttons***********************/
 
