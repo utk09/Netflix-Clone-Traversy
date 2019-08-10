@@ -168,12 +168,23 @@ https://www.w3schools.com/css/css3_2dtransforms.asp
 }
 
 /**********************Tab-1-content***********************/
+
 #tab-1-content .tab-1-content-inner {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 2rem;
   align-items: center;
   justify-content: center;
+}
+
+/**********************Tab-2-content***********************/
+
+#tab-2-content .tab-2-content-top {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-gap: 1rem;
+  justify-content: center;
+  text-align: center;
 }
 
 /**********************Text Styles***********************/
