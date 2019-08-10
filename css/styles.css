@@ -83,6 +83,16 @@ https://www.w3schools.com/css/css3_2dtransforms.asp
   transform: translate(-50%, -50%);
 }
 
+.showcase-content{
+    position: relative;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
 /**********************Buttons***********************/
 
 .btn {
