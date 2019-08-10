@@ -113,3 +113,10 @@ https://www.w3schools.com/css/css3_2dtransforms.asp
   padding: 1.5rem 2.1rem;
   text-transform: uppercase;
 }
+
+.btn-lg {
+    font-size: 1rem;
+    padding: 0.8rem 1.3rem;
+    text-transform: uppercase;
+  }
+  
