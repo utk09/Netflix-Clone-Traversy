@@ -161,7 +161,20 @@ https://www.w3schools.com/css/css3_2dtransforms.asp
   border-bottom: var(--primary-color) 4px solid;
 }
 
+/**********************Tab-1-content***********************/
+#tab-1-content .tab-1-content-inner {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 2rem;
+  align-items: center;
+  justify-content: center;
+}
+
+
+/**********************Text Styles***********************/
+
 /**********************Container***********************/
+
 .container {
   max-width: 70%;
   margin: auto;
