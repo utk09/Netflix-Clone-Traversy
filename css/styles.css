@@ -83,18 +83,22 @@ https://www.w3schools.com/css/css3_2dtransforms.asp
   transform: translate(-50%, -50%);
 }
 
-.showcase-content{
-    position: relative;
-    margin: auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    margin-top: 9rem;
+.showcase-content {
+  position: relative;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 9rem;
 }
 
-
+.showcase-content h1 {
+  font-weight: 100;
+  font-size: 5.2rem;
+  line-height: 1.1; /*1.1 em*/
+}
 
 /**********************Buttons***********************/
 
@@ -128,8 +132,7 @@ https://www.w3schools.com/css/css3_2dtransforms.asp
 }
 
 .btn-lg {
-    font-size: 1rem;
-    padding: 0.8rem 1.3rem;
-    text-transform: uppercase;
-  }
-  
+  font-size: 1rem;
+  padding: 0.8rem 1.3rem;
+  text-transform: uppercase;
+}
