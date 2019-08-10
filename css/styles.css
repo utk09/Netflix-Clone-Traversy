@@ -67,6 +67,7 @@ img {
   z-index: 1; /*higher the z-index, closer it is to you*/
   background: rgba(0, 0, 0, 0.6);
   box-shadow: inset 120px 100px 250px #000000, inset -120px -100px 250px #000000;
+  /*to add shadow around the box*/
 }
 
 .showcase-top {
