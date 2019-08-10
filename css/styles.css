@@ -1,0 +1,84 @@
+/**********************Root(Default Settings)***********************/
+
+:root {
+  --primary-color: #e50914;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  background: #000;
+  color: #999999;
+}
+
+/*WebKit implements a similar property, but with different values: -webkit-font-smoothing. It only works on Mac OS X/macOS.
+
+auto - Let the browser decide (Uses subpixel anti-aliasing when available; this is the default)
+none - Turn font smoothing off; display text with jagged sharp edges.
+antialiased - Smooth the font on the level of the pixel, as opposed to the subpixel. Switching from subpixel rendering to antialiasing for light text on dark backgrounds makes it look lighter.
+subpixel-antialiased - On most non-retina displays, this will give the sharpest text.*/
+
+ul {
+  list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  color: floralwhite;
+}
+
+a {
+  color: ghostwhite;
+  text-decoration: none;
+}
+
+p {
+  margin: 0.5rem 0; /*1rem = 16px (default)*/
+}
+
+img {
+  width: 100%;
+}
+
+/**********************Showcase***********************/
+
+.showcase {
+  width: 100%;
+  height: 93vh; /*vh - viewport height*/
+  position: relative;
+  background: url("../images/background.jpg") no-repeat center center/cover; /*center - x axis, center - y axis, cover - cover the whole area*/
+}
+
+.showcase-top {
+  position: relative;
+  height: 90px;
+}
+
+.showcase-top img {
+  width: 170px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(
+    -50%,
+    -50%
+  ); /*CSS transforms allow you to move, rotate, scale, and skew elements.
+The translate() method moves an element from its current position (according to the parameters given for the X-axis and the Y-axis).
+https://www.w3schools.com/css/css3_2dtransforms.asp
+  */
+}
+
+.showcase-top a {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translate(-50%, -50%);
+}
