@@ -134,6 +134,10 @@ https://www.w3schools.com/css/css3_2dtransforms.asp
   border-bottom: 3px solid #3d3d3d;
 }
 
+.tabs .container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr; /*or repeat(3, 1fr) fr - fraction*/
+}
 /**********************Buttons***********************/
 
 .btn {
