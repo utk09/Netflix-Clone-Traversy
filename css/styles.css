@@ -95,9 +95,18 @@ https://www.w3schools.com/css/css3_2dtransforms.asp
 }
 
 .showcase-content h1 {
-  font-weight: 100;
+  font-weight: 100; /*font-weight: 400 is supposed to be equal to normal , while 700 is equal to bold .*/
   font-size: 5.2rem;
   line-height: 1.1; /*1.1 em*/
+  margin: 0 0 2rem;
+}
+
+.showcase-content p {
+  text-transform: uppercase;
+  color: seashell;
+  font-weight: 400;
+  font-size: 1.9rem;
+  line-height: 1.25;
   margin: 0 0 2rem;
 }
 
