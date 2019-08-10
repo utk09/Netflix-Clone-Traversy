@@ -148,7 +148,14 @@ https://www.w3schools.com/css/css3_2dtransforms.asp
     padding-top: 0.5rem;
 }
 
+.tabs .container > div{
+    padding: 1.5rem 0;
+}
 
+.tabs .container > div:hover{
+    color: azure;
+    cursor: pointer;
+}
 
 /**********************Container***********************/
 .container{
