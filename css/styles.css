@@ -143,30 +143,30 @@ https://www.w3schools.com/css/css3_2dtransforms.asp
   text-align: center;
 }
 
-.tabs p{
-    font-size: 1.2rem;
-    padding-top: 0.5rem;
+.tabs p {
+  font-size: 1.2rem;
+  padding-top: 0.5rem;
 }
 
-.tabs .container > div{
-    padding: 1.5rem 0;
+.tabs .container > div {
+  padding: 1.5rem 0;
 }
 
-.tabs .container > div:hover{
-    color: azure;
-    cursor: pointer;
+.tabs .container > div:hover {
+  color: azure;
+  cursor: pointer;
 }
 
-.tab-border{
-    border-bottom: var(--primary-color) 4px solid;
+.tab-border {
+  border-bottom: var(--primary-color) 4px solid;
 }
 
 /**********************Container***********************/
-.container{
-    max-width: 70%;
-    margin: auto;
-    overflow: hidden;
-    padding: 0 2rem;
+.container {
+  max-width: 70%;
+  margin: auto;
+  overflow: hidden;
+  padding: 0 2rem;
 }
 
 /**********************Buttons***********************/
