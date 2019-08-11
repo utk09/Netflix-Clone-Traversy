@@ -27,4 +27,4 @@ function removeShow() {
 // Listen for tab click
 tabItems.forEach(item => item.addEventListener('click', selectItem));
 
-// Completed JS - Traversy Media
+// JS Complete
