@@ -344,3 +344,19 @@ https://www.w3schools.com/css/css3_2dtransforms.asp
   padding: 0.8rem 1.3rem;
   text-transform: uppercase;
 }
+
+/**********************Media Query***********************/
+@media (max-width: 960px) {
+  .showcase {
+    height: 70vh;
+  }
+  .hide-sm {
+    display: none;
+  }
+
+  .showcase-top img {
+    top: 30%;
+    left: 5%;
+    transform: translate(0);
+  }
+}
