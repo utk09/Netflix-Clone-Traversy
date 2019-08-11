@@ -168,6 +168,18 @@ https://www.w3schools.com/css/css3_2dtransforms.asp
   color: snow;
 }
 
+/**********************Hide Content Initially***********************/
+
+#tab-1-content,
+#tab-2-content,
+#tab-3-content {
+  display: none;
+}
+
+.show {
+  display: block !important;
+}
+
 /**********************Tab-1-content***********************/
 
 #tab-1-content .tab-1-content-inner {
